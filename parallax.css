@@ -1,0 +1,103 @@
+@import url(https://fonts.googleapis.com/css?family=Tangerine:400,700);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
+.block{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+}
+.block h2{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10vw;
+  color: white;
+  font-weight: 400;
+  font-family: 'Tangerine', cursive;
+}
+.img-parallax {
+  width: 100vmax;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  pointer-events: none
+}
+
+.jumbotron {
+    margin: 0;
+    float:left;
+    width: 100%;
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg");
+    
+    font-family: 'Amatic SC', cursive;
+    color: #FFF;
+    border-radius: 0px;
+    }
+    .jumbotron-sm { padding-top: 24px;
+    padding-bottom: 24px; }
+    .jumbotron small {
+    color: #FFF;
+    }
+    .h1 small {
+    font-size: 24px;
+    }
+.contact {
+    height: 50%;
+    /*background-image: url("https://i.picsum.photos/id/873/1920/1920.jpg?hmac=ttS2iFxdXdDeXAEebydSyzlO_2Bi4050I255uH02x_c");*/
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+/*******************************/
+/********* Footer CSS **********/
+/*******************************/
+.footer {
+    background-image: url("https://i.picsum.photos/id/901/1920/1920.jpg?hmac=irNUs7dMedqII1jIv4h3WByrN4B1ckIGGZeuP_8lno4");
+    padding: 50px 0 20px 0;
+    background-color: #35404f;
+    color: #878c94;
+    overflow: hidden;
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.footer .title{text-align: left;color:#fff;font-size:25px;}
+
+
+.footer .social-icon{padding:0px;margin:0px;}
+.footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.footer .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.footer .acount-icon .fa{margin-right:25px;}
+
+
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+
+.footer .payment{margin:0px;padding:0px;list-style-type:none}
+.footer .payment li{list-style-type:none}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
